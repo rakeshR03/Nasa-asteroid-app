@@ -1,0 +1,45 @@
+.look-container{
+    width: 50vw;
+    border: 5px double black;
+    border-radius: 3px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+.detail-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+label{
+    font-size: 24px;
+}
+p{
+    font-size: 20px;
+    word-wrap: normal;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+    p {
+      font-size: 15px;
+    }
+    label{
+        font-size: 18px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    p {
+      font-size: 10px;
+    }
+    label{
+        font-size: 14px;
+    }
+  }
