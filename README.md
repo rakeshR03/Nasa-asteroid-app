@@ -1,6 +1,6 @@
 # Nasa-asteroid-app
 
-This is Web App that shows list of Asteroid present in our Universe.
+This is a Web App that shows list of Asteroid present in our Universe.
 
 Asteroid data is fetched from Nasa's Neo Browse API.
 
